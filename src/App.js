@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React from 'react';
 import { useFetchLocation } from './useFetchLocation';
 function getWeatherIcon(wmoCode) {
   const icons = new Map([
